@@ -1,0 +1,113 @@
+hr {
+  border-width: 0px 0px 0px 0px;
+
+  border-top: dotted;
+  width: 10%;
+  border-color: #ff9595;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Yrsa", serif;
+  font-size: larger;
+  color: #342b38;
+  background-color: #e7dfd5;
+}
+
+.Top {
+  background-color: #342b38;
+  padding-top: 100px;
+  position: relative;
+}
+
+h1 {
+  margin: 50px auto 20px auto;
+  font-family: "Tangerine", cursive;
+  font-size: 7rem; /*1em = 100% = 16px and em is inherited from parents font size. rem = root em*/
+  color: #ff9595;
+}
+h2 {
+  font-size: 2rem;
+  font-family: "Miriam Libre", sans-serif;
+  font-weight: bolder;
+}
+h3 {
+  font-family: "Miriam Libre", sans-serif;
+  font-size: larger;
+}
+.middle-container {
+}
+.bottom-container {
+  position: relative;
+  top: 50px;
+  padding: 25px;
+  background-color: #342b38;
+  color: #ff9595;
+}
+.cloud-bottom {
+  position: absolute;
+}
+.cloud-top {
+  position: absolute;
+  transform: rotateY(180deg);
+  top: 50px;
+  right: 330px;
+}
+.profile {
+  border-radius: 50%;
+  width: 200px;
+}
+.skill-row {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  line-height: 2;
+}
+.codeimg {
+  float: left;
+  margin-right: 30px;
+  position: relative;
+}
+.cookimg {
+  float: right; /*use clear to unfloat certain elements you dont want floating*/
+  margin-left: 30px;
+}
+.code {
+  margin: 0 auto 50px;
+}
+.cook {
+  padding: 10px;
+}
+.footer-link {
+  color: #ff9595;
+  margin: auto 15px auto 15px;
+  text-decoration: none;
+}
+.BUTTON_YEY {
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  color: #ff9595;
+  font-family: serif;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 5px;
+  background-color: #342b38;
+
+  border: solid #NAN42B3 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.BUTTON_YEY:hover {
+  background: #ff9595;
+  border: solid #eef0f3 1px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #342b38;
+}
